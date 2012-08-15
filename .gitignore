@@ -1,0 +1,6 @@
+# geppetto ide file
+metadata.json
+.project
+
+# Mac
+.DS_STORE
