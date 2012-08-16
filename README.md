@@ -4,6 +4,7 @@ installbox
 This Puppet module will install
 * fail2ban
 * git
+* nodejs
 
 Tested on ubuntu 12.04 
 

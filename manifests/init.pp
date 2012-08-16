@@ -22,6 +22,7 @@ class installbox {
 
   include fail2ban
   include git
+  include nodejs
 }
 
 class {'installbox':}
