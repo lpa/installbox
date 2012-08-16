@@ -4,3 +4,5 @@ metadata.json
 
 # Mac
 .DS_STORE
+
+.vagrant

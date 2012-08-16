@@ -63,7 +63,7 @@ config.vm.provision :puppet do |puppet|
   puppet.manifests_path = "manifests"
   puppet.module_path = "modules"
   puppet.manifest_file = "init.pp"
-  puppet.options = "--verbose --debug"
+  #puppet.options = "--verbose --debug"
 end
 
 config.vm.share_folder "installbox-sources", "/home/vagrant/installbox", "/Users/lpa/developpement/projets/workspace/installbox"

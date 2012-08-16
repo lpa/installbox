@@ -10,8 +10,17 @@
 #
 # Sample Usage:
 #
-# [Remember: No empty lines between comments and class definition]
 class installbox {
 
-  include fail2ban
+  notice('Box install started ...')
+
+  user { 'dave':
+    ensure => 'present',
+    home   => '/home/dave',
+    shell  => '/bin/zsh'
+  }
+
+  require fail2ban
 }
+
+class {'installbox':}
