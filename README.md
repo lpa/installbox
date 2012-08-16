@@ -9,24 +9,24 @@ Tested on ubuntu 12.04
 
 ## I want to test it 
 
-Install virtualbox
+Install virtualbox  
 https://www.virtualbox.org/wiki/Downloads
 
-Install vagrant
- `gem install vagrant`
+Install vagrant  
+`gem install vagrant`  
 or http://downloads.vagrantup.com/tags/v1.0.3
 
-Get a base VM ubuntu 12.04
-  `vagrant box add ubuntu-12.04 http://files.vagrantup.com/precise64.box`
+Get a base VM ubuntu 12.04  
+`vagrant box add ubuntu-12.04 http://files.vagrantup.com/precise64.box`
 
-Clone it 
-  `git clone git@github.com:lpa/installbox`
+Clone it   
+`git clone git@github.com:lpa/installbox`
 
-Run it
-  `cd installbox`
-  `vagrant up`
+Run it   
+`cd installbox`   
+`vagrant up`    
 First VM import can take a minute
 
-Access your VM to ckeck
-  `vagrant ssh`
+Access your VM to ckeck    
+`vagrant ssh`
 
