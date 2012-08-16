@@ -20,7 +20,8 @@ class installbox {
     shell  => '/bin/zsh'
   }
 
-  require fail2ban
+  include fail2ban
+  include git
 }
 
 class {'installbox':}
